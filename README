@@ -1,0 +1,41 @@
+README
+/////////////////////////////////////
+DEATH TRAP CAR RACING
+/////////////////////////////////////
+
+Credits:
+This game is created by Clinton Tong and Daniel Wei
+Base on a modified open source graphic engine SPARKY(early version)
+which can be found at  https://github.com/TheCherno/Sparky
+/////////////////////////////////////////////////////////////////////////////
+Introduction:
+This project is divided into two parts
+The first part is the game engine, it includes a graphic engine and a sound engine.
+The translation of java to openGL is handled by a light weight open source library 
+LWJGL library, the sound engine is powered by openAL. 
+The second part is the game level.
+///////////////////////////////////////////////////////////////////////////////
+Check Lists:
+PACKAGE CAR: MAIN.JAVA
+PACKAGE AUDIO:LWJGLEXCEPTION.JAVA; MASTERAUDIO.JAVA; SOURCE.JAVA; WAVEDATA.JAVA; TRAFFIC.WAV;CRASH.WAV
+PACKAGE GRAPHICS: SHADER.JAVA;  TEXTURE.JAVA; VERTEXARRAY.JAVA
+PACKAGE INPUT: INPUT.JAVA
+PACKAGE LEVEL: BLOCK.JAVA; LEVEL.JAVA; PLAYER.JAVA
+PACKAGE MATHS: MATRIX4F.JAVA; VECTOR3F.JAVA
+PACKAGE UTILS: BUFFERUTILS.JAVA; FILEUTILS.JAVA; SHADERUTILS.JAVA
+RES FOLDER: CAR.PNG; BLOCK.PNG; BG.PNG
+SHADERS FOLDER
+/////////////////////////////////////////////////////////////////////////////////
+
+TO RUN:
+
+1. Download LWJGL version 3.0 from https://www.lwjgl.org/download
+2. Check slick-util.jar is inside source folder
+3. If not, download slick-util.jar from http://slick.ninjacave.com/slick-util/
+3. Make sure you are running JavaSE 1.5 - 1.7(1.8 WILL NOT RUN)
+4. Delete existing java build path from Library tab
+5. Add external LWJGL jar file
+6. Set native to LWJGL native path
+7. Add external slick-util jar file
+8. OK to run
+9. Support can be found by contacting either clintont@sfu.ca or dwa74@sfu.ca
